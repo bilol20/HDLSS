@@ -35,7 +35,7 @@ registerDoParallel(cl)
 
 ITR = 500
 alpha = 0.05
-R = 200
+R = 500
 t = 2
 delta = 0.5
 gamma = 1.1
@@ -92,7 +92,7 @@ nl = length(d)
 ITR = 500
 alpha = 0.05
 t = 8
-R = 200
+R = 500
 gamma = 1
 phi_x = function(x,k){
   if(k==1){return(x)}
@@ -207,7 +207,7 @@ nl = length(d)
 ITR = 500
 alpha = 0.05
 t = 2
-R = 200
+R = 500
 gamma = 1
 phi_x = function(x,k){
   if(k==1){return(x)}
@@ -331,7 +331,7 @@ registerDoParallel(cl)
 
 ITR = 500
 alpha = 0.05
-R = 200
+R = 500
 t = 5
 delta = 0.7
 gamma = 0.5
@@ -403,7 +403,7 @@ registerDoParallel(cl)
 
 ITR = 500
 alpha = 0.05
-R = 200
+R = 500
 t = 8
 delta = 0.7
 gamma = 0.5
@@ -475,7 +475,7 @@ registerDoParallel(cl)
 
 ITR = 500
 alpha = 0.05
-R = 200
+R = 500
 t = 8
 delta = 0.7
 gamma = 0.5
